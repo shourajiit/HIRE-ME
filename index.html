@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hire Me | [shourajit]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      padding: 30px;
+      color: #333;
+    }
+    .container {
+      max-width: 650px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-weight: 600;
+      color: #2a2a2a;
+      margin-bottom: 10px;
+    }
+    p.subheading {
+      text-align: center;
+      font-size: 0.95em;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    form label {
+      font-weight: 500;
+      margin-top: 20px;
+      display: block;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: border 0.3s ease;
+    }
+    input:focus, textarea:focus, select:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+    button {
+      margin-top: 30px;
+      padding: 14px;
+      width: 100%;
+      background: #007bff;
+      color: white;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .footer-note {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+    }
+    @media screen and (max-width: 480px) {
+      .container {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hire Me</h1>
+    <p class="subheading">Tell me about your project — I’ll get back within 24 hours!</p>
+
+    <form action="https://formsubmit.co/shourajitrajbanshi25@gmail.com" method="POST">
+  <!-- Hidden config fields -->
+  <input name="_redirect" type="hidden" value="https://yourwebsite.com/thank-you.html">
+  <input name="_email.template.title" type="hidden" value="New Hire Request">
+  <input name="_email.from" type="hidden" value="Website Form">
+  <input name="_captcha" type="hidden" value="false">
+
+  <!-- Actual Form Fields -->
+  <label for="name">Full Name*</label>
+  <input type="text" id="name" name="Full Name" required>
+
+  <label for="email">Email Address*</label>
+  <input type="email" id="email" name="Email" required>
+
+  <label for="project">Project Type</label>
+  <select id="project" name="Project Type">
+    <option value="Website">Website</option>
+    <option value="Mobile App">Youtube Management</option>
+    <option value="UI/UX Design">YT thumbnail</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="budget">Estimated Budget</label>
+  <select id="budget" name="Budget">
+    <option value="₹5k-₹10k">150</option>
+    <option value="₹10k-₹50k">kuch nahi denge</option>
+    <option value="₹50k+">Ambani meri lode pe</option>
+  </select>
+
+  <label for="message">Project Description*</label>
+  <textarea id="message" name="Project Description" rows="6" required></textarea>
+
+  <button type="submit">Send Request</button>
+</form>
+
+
+    <div class="footer-note">
+      I value your time — you’ll hear from me very soon.
+    </div>
+  </div>
+</body>
+</html>
